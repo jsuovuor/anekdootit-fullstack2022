@@ -1,6 +1,7 @@
 import axios from 'axios'
 
 const baseUrl = 'https://anekdootit-fullstack2022.herokuapp.com/api/anecdotes'
+console.log(process.env)
 
 const getAll = async () => {
   const response = await axios.get(baseUrl)
