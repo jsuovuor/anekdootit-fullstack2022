@@ -51,9 +51,9 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "anekdootit-fullstack2022" #Must be unique in Heroku
           heroku_email: "suovuori.joni@gmail.com"
-#          healthcheck: "https://pokedex-fullstack2022.herokuapp.com/health"
-#          checkstring: "ok"
-#          rollbackonhealthcheckfailed: true
+          healthcheck: "https://anekdootit-fullstack2022.herokuapp.com/health"
+          checkstring: "ok"
+          rollbackonhealthcheckfailed: true
 #      - name: Deployed a new version!
 #        uses: rjstone/discord-webhook-notify@v1
 #        if: success()
