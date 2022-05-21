@@ -29,7 +29,7 @@
     "eslint": "eslint .",
     "eslint-fix": "eslint . --fix",
     "cypress:open": "cypress open",
-    "start:test": "cross-env NODE_ENV=test node app.js"
+    "test:e2e": "cypress run"
   },
   "eslintConfig": {
     "extends": [
