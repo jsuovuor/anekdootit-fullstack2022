@@ -23,7 +23,11 @@ app.get('/health', (req, res) => {
 })
 
 app.get('/version', (req, res) => {
-  res.send('3')
+  res.send('4')
+})
+
+app.get('/hello', (req, res) => {
+  res.send('hello world!')
 })
 
 app.use('/api', router)
