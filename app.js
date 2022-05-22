@@ -26,6 +26,10 @@ app.get('/version', (req, res) => {
   res.send('5')
 })
 
+app.get('/hello', (req, res) => {
+  res.send('Hello world!')
+})
+
 app.use('/api', router)
 
 app.listen(PORT, () => {
