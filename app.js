@@ -26,10 +26,6 @@ app.get('/version', (req, res) => {
   res.send('4')
 })
 
-app.get('/hello', (req, res) => {
-  res.send('hello world!')
-})
-
 app.use('/api', router)
 
 app.listen(PORT, () => {
