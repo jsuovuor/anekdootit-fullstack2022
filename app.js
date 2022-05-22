@@ -23,7 +23,7 @@ app.get('/health', (req, res) => {
 })
 
 app.get('/version', (req, res) => {
-  res.send('5')
+  res.send('6')
 })
 
 app.use('/api', router)
