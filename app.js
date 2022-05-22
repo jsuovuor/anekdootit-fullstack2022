@@ -27,7 +27,6 @@ app.get('/version', (req, res) => {
 })
 
 
-
 app.use('/api', router)
 
 app.listen(PORT, () => {
