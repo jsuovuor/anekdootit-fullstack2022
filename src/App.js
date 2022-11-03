@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Anecdotess</h2>
+      <h2>Anecdote</h2>
       <Notification />
       <Filter />
       <AnecdoteList />
