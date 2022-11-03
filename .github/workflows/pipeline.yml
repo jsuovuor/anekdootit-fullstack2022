@@ -18,8 +18,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - name: npm ci
-        run: npm ci 
+      - name: npm i
+        run: npm i 
       - name: lint
         run: npm run eslint
       - name: test
