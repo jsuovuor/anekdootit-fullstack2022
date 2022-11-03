@@ -1,3 +1,4 @@
+/*
 describe('Anecdotes', function() {
   it('front page can be opened', function() {
     cy.visit('http://localhost:5000')
@@ -5,6 +6,7 @@ describe('Anecdotes', function() {
     cy.contains('create new')
   })
 })
+*/
 
 describe('Anecdotes', function() {
   it('Anecdotes are loaded', function() {
