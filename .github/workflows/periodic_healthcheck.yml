@@ -23,7 +23,7 @@ jobs:
           severity: info
           details: Periodic health check SUCCESS
           webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
-      - name: Periodic health check failed
+      - name: Periodic health check fail
         uses: rjstone/discord-webhook-notify@v1
         if: failure()
         with:
